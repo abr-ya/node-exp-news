@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
 
 app.use('/news', news);
 
-const PORT = process.env.port || 5005;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
 	console.log(`server was running at port: ${PORT}`);
 });
